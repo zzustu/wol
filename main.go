@@ -35,6 +35,7 @@ var help = `
 	https://github.com/zzustu/wol
 `
 
+// 网络唤醒魔包技术白皮书地址: https://www.amd.com/system/files/TechDocs/20213.pdf
 func main() {
 	mac := flag.String("mac", "", help)
 	nic := flag.String("nic", "", help)
