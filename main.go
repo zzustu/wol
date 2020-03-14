@@ -133,5 +133,5 @@ func interfaceIPv4ByName(nic string) (net.IP, error) {
 		}
 	}
 
-	return nil, errors.New("找不到网卡绑定的IP")
+	return nil, errors.New("该网卡没有IPv4地址")
 }
